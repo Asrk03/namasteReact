@@ -1,6 +1,6 @@
-const root = React.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const heading = ReactDOM.createElement(
+const heading = React.createElement(
     "h1",
     {
         id : "title"
